@@ -15,7 +15,9 @@ class IND{
             ["Bing", "192.268.0.107", "Bong", "43", 1]
         ];
         $this->db = new DBGen();
-        $this->db->deleteData(4);
+        $this->db->fetchAllData(1);
+        // $this->db->getJoinData(1);
+        // $this->db->deleteData(4);
         // $this->db->getSingleShop(2);
         // $this->db->getMultiShops(1);
         // $this->db->getAllData();
