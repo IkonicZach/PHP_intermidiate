@@ -2,10 +2,11 @@
 require_once "member.php";
 
 // $member = new App\Member();
-
-$rp = new ReflectionProperty('App\Member', 'detail');
-
+$rp = new ReflectionParameter(['App\Member', 'getDetail'], 0);
 showData(get_class_methods($rp));
+// $rp = new ReflectionProperty('App\Member', 'detail');
+
+// showData(get_class_methods($rp));
 // $rm = new ReflectionMethod('App\Member', 'getDetail');
 // showData(get_class_methods($rm));
 

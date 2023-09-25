@@ -10,7 +10,7 @@ class Member
         "age"=>30,
         "club"=>"Bayern"
     ];
-    public function getDetail(){
+    public function getDetail($data){
         return $this->detail;
     }
     public function setAuth($bol){

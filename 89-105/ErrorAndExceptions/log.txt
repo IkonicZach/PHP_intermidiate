@@ -1,0 +1,13 @@
+Error message => 
+ File not found reported by My custom exception class
+Error number => 
+ 10000
+Error timestamp
+ CEST-09-25 08:09:14
+-----------------------------------Error message => 
+ File not found reported by My custom exception class
+Error number => 
+ 10000
+Error timestamp
+ CEST-09-25 08:09:19
+-----------------------------------
